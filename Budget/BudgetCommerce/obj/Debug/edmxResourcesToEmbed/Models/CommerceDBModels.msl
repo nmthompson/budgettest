@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="CommerceDBModel1StoreContainer" CdmEntityContainer="CommerceDBEntities1">
+    <EntitySetMapping Name="Checkings">
+      <EntityTypeMapping TypeName="CommerceDBModel1.Checking">
+        <MappingFragment StoreEntitySet="Checking">
+          <ScalarProperty Name="CheckingTableID" ColumnName="CheckingTableID" />
+          <ScalarProperty Name="AccountNumber" ColumnName="AccountNumber" />
+          <ScalarProperty Name="ProcessDateTime" ColumnName="ProcessDateTime" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="CR__deposit__or_DR_withdrawl_" ColumnName="CR (deposit) or DR(withdrawl)" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CreditCards">
+      <EntityTypeMapping TypeName="CommerceDBModel1.CreditCard">
+        <MappingFragment StoreEntitySet="CreditCard">
+          <ScalarProperty Name="CreditCardTableID" ColumnName="CreditCardTableID" />
+          <ScalarProperty Name="AccountNumber" ColumnName="AccountNumber" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="ProcessTime" ColumnName="ProcessTime" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="CR_deposit__or_DR_withdrawl__" ColumnName="CR(deposit) or DR(withdrawl)]" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CustomerInfoes">
+      <EntityTypeMapping TypeName="CommerceDBModel1.CustomerInfo">
+        <MappingFragment StoreEntitySet="CustomerInfo">
+          <ScalarProperty Name="CustomerTableID" ColumnName="CustomerTableID" />
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="MiddleInitial" ColumnName="MiddleInitial" />
+          <ScalarProperty Name="DOB" ColumnName="DOB" />
+          <ScalarProperty Name="CheckingAccountNumber" ColumnName="CheckingAccountNumber" />
+          <ScalarProperty Name="CreditCardAccountNumber" ColumnName="CreditCardAccountNumber" />
+          <ScalarProperty Name="SavingsAccountNumber" ColumnName="SavingsAccountNumber" />
+          <ScalarProperty Name="HomeAddress" ColumnName="HomeAddress" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="CheckingBalance" ColumnName="CheckingBalance" />
+          <ScalarProperty Name="SavingsBalance" ColumnName="SavingsBalance" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GoalTypes">
+      <EntityTypeMapping TypeName="CommerceDBModel1.GoalType">
+        <MappingFragment StoreEntitySet="GoalType">
+          <ScalarProperty Name="GoalTableID" ColumnName="GoalTableID" />
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="GoalType1" ColumnName="GoalType" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+          <ScalarProperty Name="AmountEntered" ColumnName="AmountEntered" />
+          <ScalarProperty Name="GoalAchieved" ColumnName="GoalAchieved" />
+          <ScalarProperty Name="TenPercentToGoal" ColumnName="TenPercentToGoal" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Savings">
+      <EntityTypeMapping TypeName="CommerceDBModel1.Saving">
+        <MappingFragment StoreEntitySet="Savings">
+          <ScalarProperty Name="SavingsTableID" ColumnName="SavingsTableID" />
+          <ScalarProperty Name="AccountNumber" ColumnName="AccountNumber" />
+          <ScalarProperty Name="ProcessDate" ColumnName="ProcessDate" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="CR_deposit__or_DR_withdrawl_" ColumnName="CR(deposit) or DR(withdrawl)" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

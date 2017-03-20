@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="CommerceDBModelStoreContainer" CdmEntityContainer="CommerceDBEntities">
+    <EntitySetMapping Name="GoalTypes">
+      <EntityTypeMapping TypeName="CommerceDBModel.GoalType">
+        <MappingFragment StoreEntitySet="GoalType">
+          <ScalarProperty Name="GoalType1" ColumnName="GoalType" />
+          <ScalarProperty Name="AmountEntered" ColumnName="AmountEntered" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+          <ScalarProperty Name="GoalAchieved" ColumnName="GoalAchieved" />
+          <ScalarProperty Name="TenPercentToGoal" ColumnName="TenPercentToGoal" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

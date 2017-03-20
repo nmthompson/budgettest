@@ -1,0 +1,13 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+<div class="register-header">
+    @Html.Partial("_LoginPartial")
+</div>
+<div class="mid-nav">
+    <ul class="nav navbar-nav">
+        <li>@Html.ActionLink("Main", "Index", "Home")</li>
+        <li>@Html.ActionLink("History", "History", "Home")</li>
+        <li>@Html.ActionLink("Settings", "Settings", "Home")</li>
+    </ul>
+</div>

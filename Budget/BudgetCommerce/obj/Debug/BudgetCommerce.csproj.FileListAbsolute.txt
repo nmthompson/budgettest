@@ -1,0 +1,288 @@
+c:\Users\Nick\Documents\Visual Studio 2015\Projects\BudgetCommerce\BudgetCommerce\bin\ApplicationInsights.config
+c:\Users\Nick\Documents\Visual Studio 2015\Projects\BudgetCommerce\BudgetCommerce\bin\roslyn\csc.exe
+c:\Users\Nick\Documents\Visual Studio 2015\Projects\BudgetCommerce\BudgetCommerce\bin\roslyn\csc.exe.config
+c:\Users\Nick\Documents\Visual Studio 2015\Projects\BudgetCommerce\BudgetCommerce\bin\roslyn\csc.rsp
+c:\Users\Nick\Documents\Visual Studio 2015\Projects\BudgetCommerce\BudgetCommerce\bin\roslyn\csi.exe
+c:\Users\Nick\Documents\Visual Studio 2015\Projects\BudgetCommerce\BudgetCommerce\bin\roslyn\csi.rsp
+c:\Users\Nick\Documents\Visual Studio 2015\Projects\BudgetCommerce\BudgetCommerce\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\Users\Nick\Documents\Visual Studio 2015\Projects\BudgetCommerce\BudgetCommerce\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\Users\Nick\Documents\Visual Studio 2015\Projects\BudgetCommerce\BudgetCommerce\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+c:\Users\Nick\Documents\Visual Studio 2015\Projects\BudgetCommerce\BudgetCommerce\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\Users\Nick\Documents\Visual Studio 2015\Projects\BudgetCommerce\BudgetCommerce\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+c:\Users\Nick\Documents\Visual Studio 2015\Projects\BudgetCommerce\BudgetCommerce\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\Users\Nick\Documents\Visual Studio 2015\Projects\BudgetCommerce\BudgetCommerce\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\Users\Nick\Documents\Visual Studio 2015\Projects\BudgetCommerce\BudgetCommerce\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+c:\Users\Nick\Documents\Visual Studio 2015\Projects\BudgetCommerce\BudgetCommerce\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+c:\Users\Nick\Documents\Visual Studio 2015\Projects\BudgetCommerce\BudgetCommerce\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\Users\Nick\Documents\Visual Studio 2015\Projects\BudgetCommerce\BudgetCommerce\bin\roslyn\System.AppContext.dll
+c:\Users\Nick\Documents\Visual Studio 2015\Projects\BudgetCommerce\BudgetCommerce\bin\roslyn\System.Collections.Immutable.dll
+c:\Users\Nick\Documents\Visual Studio 2015\Projects\BudgetCommerce\BudgetCommerce\bin\roslyn\System.Diagnostics.StackTrace.dll
+c:\Users\Nick\Documents\Visual Studio 2015\Projects\BudgetCommerce\BudgetCommerce\bin\roslyn\System.IO.FileSystem.dll
+c:\Users\Nick\Documents\Visual Studio 2015\Projects\BudgetCommerce\BudgetCommerce\bin\roslyn\System.IO.FileSystem.Primitives.dll
+c:\Users\Nick\Documents\Visual Studio 2015\Projects\BudgetCommerce\BudgetCommerce\bin\roslyn\System.Reflection.Metadata.dll
+c:\Users\Nick\Documents\Visual Studio 2015\Projects\BudgetCommerce\BudgetCommerce\bin\roslyn\vbc.exe
+c:\Users\Nick\Documents\Visual Studio 2015\Projects\BudgetCommerce\BudgetCommerce\bin\roslyn\vbc.exe.config
+c:\Users\Nick\Documents\Visual Studio 2015\Projects\BudgetCommerce\BudgetCommerce\bin\roslyn\vbc.rsp
+c:\Users\Nick\Documents\Visual Studio 2015\Projects\BudgetCommerce\BudgetCommerce\bin\roslyn\VBCSCompiler.exe
+c:\Users\Nick\Documents\Visual Studio 2015\Projects\BudgetCommerce\BudgetCommerce\bin\roslyn\VBCSCompiler.exe.config
+c:\Users\Nick\Documents\Visual Studio 2015\Projects\BudgetCommerce\BudgetCommerce\bin\BudgetCommerce.dll.config
+c:\Users\Nick\Documents\Visual Studio 2015\Projects\BudgetCommerce\BudgetCommerce\bin\BudgetCommerce.dll
+c:\Users\Nick\Documents\Visual Studio 2015\Projects\BudgetCommerce\BudgetCommerce\bin\BudgetCommerce.pdb
+c:\Users\Nick\Documents\Visual Studio 2015\Projects\BudgetCommerce\BudgetCommerce\bin\Antlr3.Runtime.dll
+c:\Users\Nick\Documents\Visual Studio 2015\Projects\BudgetCommerce\BudgetCommerce\bin\EntityFramework.dll
+c:\Users\Nick\Documents\Visual Studio 2015\Projects\BudgetCommerce\BudgetCommerce\bin\EntityFramework.SqlServer.dll
+c:\Users\Nick\Documents\Visual Studio 2015\Projects\BudgetCommerce\BudgetCommerce\bin\Microsoft.AI.Agent.Intercept.dll
+c:\Users\Nick\Documents\Visual Studio 2015\Projects\BudgetCommerce\BudgetCommerce\bin\Microsoft.AI.DependencyCollector.dll
+c:\Users\Nick\Documents\Visual Studio 2015\Projects\BudgetCommerce\BudgetCommerce\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\Users\Nick\Documents\Visual Studio 2015\Projects\BudgetCommerce\BudgetCommerce\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\Users\Nick\Documents\Visual Studio 2015\Projects\BudgetCommerce\BudgetCommerce\bin\Microsoft.AI.Web.dll
+c:\Users\Nick\Documents\Visual Studio 2015\Projects\BudgetCommerce\BudgetCommerce\bin\Microsoft.AI.WindowsServer.dll
+c:\Users\Nick\Documents\Visual Studio 2015\Projects\BudgetCommerce\BudgetCommerce\bin\Microsoft.ApplicationInsights.dll
+c:\Users\Nick\Documents\Visual Studio 2015\Projects\BudgetCommerce\BudgetCommerce\bin\Microsoft.AspNet.Identity.Core.dll
+c:\Users\Nick\Documents\Visual Studio 2015\Projects\BudgetCommerce\BudgetCommerce\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\Users\Nick\Documents\Visual Studio 2015\Projects\BudgetCommerce\BudgetCommerce\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\Users\Nick\Documents\Visual Studio 2015\Projects\BudgetCommerce\BudgetCommerce\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\Users\Nick\Documents\Visual Studio 2015\Projects\BudgetCommerce\BudgetCommerce\bin\Microsoft.Owin.dll
+c:\Users\Nick\Documents\Visual Studio 2015\Projects\BudgetCommerce\BudgetCommerce\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\Users\Nick\Documents\Visual Studio 2015\Projects\BudgetCommerce\BudgetCommerce\bin\Microsoft.Owin.Security.Cookies.dll
+c:\Users\Nick\Documents\Visual Studio 2015\Projects\BudgetCommerce\BudgetCommerce\bin\Microsoft.Owin.Security.dll
+c:\Users\Nick\Documents\Visual Studio 2015\Projects\BudgetCommerce\BudgetCommerce\bin\Microsoft.Owin.Security.Facebook.dll
+c:\Users\Nick\Documents\Visual Studio 2015\Projects\BudgetCommerce\BudgetCommerce\bin\Microsoft.Owin.Security.Google.dll
+c:\Users\Nick\Documents\Visual Studio 2015\Projects\BudgetCommerce\BudgetCommerce\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\Users\Nick\Documents\Visual Studio 2015\Projects\BudgetCommerce\BudgetCommerce\bin\Microsoft.Owin.Security.OAuth.dll
+c:\Users\Nick\Documents\Visual Studio 2015\Projects\BudgetCommerce\BudgetCommerce\bin\Microsoft.Owin.Security.Twitter.dll
+c:\Users\Nick\Documents\Visual Studio 2015\Projects\BudgetCommerce\BudgetCommerce\bin\Microsoft.Web.Infrastructure.dll
+c:\Users\Nick\Documents\Visual Studio 2015\Projects\BudgetCommerce\BudgetCommerce\bin\Newtonsoft.Json.dll
+c:\Users\Nick\Documents\Visual Studio 2015\Projects\BudgetCommerce\BudgetCommerce\bin\Owin.dll
+c:\Users\Nick\Documents\Visual Studio 2015\Projects\BudgetCommerce\BudgetCommerce\bin\System.Web.Helpers.dll
+c:\Users\Nick\Documents\Visual Studio 2015\Projects\BudgetCommerce\BudgetCommerce\bin\System.Web.Mvc.dll
+c:\Users\Nick\Documents\Visual Studio 2015\Projects\BudgetCommerce\BudgetCommerce\bin\System.Web.Optimization.dll
+c:\Users\Nick\Documents\Visual Studio 2015\Projects\BudgetCommerce\BudgetCommerce\bin\System.Web.Razor.dll
+c:\Users\Nick\Documents\Visual Studio 2015\Projects\BudgetCommerce\BudgetCommerce\bin\System.Web.WebPages.Deployment.dll
+c:\Users\Nick\Documents\Visual Studio 2015\Projects\BudgetCommerce\BudgetCommerce\bin\System.Web.WebPages.dll
+c:\Users\Nick\Documents\Visual Studio 2015\Projects\BudgetCommerce\BudgetCommerce\bin\System.Web.WebPages.Razor.dll
+c:\Users\Nick\Documents\Visual Studio 2015\Projects\BudgetCommerce\BudgetCommerce\bin\WebGrease.dll
+c:\Users\Nick\Documents\Visual Studio 2015\Projects\BudgetCommerce\BudgetCommerce\bin\Antlr3.Runtime.pdb
+c:\Users\Nick\Documents\Visual Studio 2015\Projects\BudgetCommerce\BudgetCommerce\bin\Microsoft.AI.DependencyCollector.xml
+c:\Users\Nick\Documents\Visual Studio 2015\Projects\BudgetCommerce\BudgetCommerce\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\Users\Nick\Documents\Visual Studio 2015\Projects\BudgetCommerce\BudgetCommerce\bin\Microsoft.AI.Web.xml
+c:\Users\Nick\Documents\Visual Studio 2015\Projects\BudgetCommerce\BudgetCommerce\bin\Microsoft.AI.WindowsServer.xml
+c:\Users\Nick\Documents\Visual Studio 2015\Projects\BudgetCommerce\BudgetCommerce\bin\Microsoft.ApplicationInsights.xml
+c:\Users\Nick\Documents\Visual Studio 2015\Projects\BudgetCommerce\BudgetCommerce\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\Users\Nick\Documents\Visual Studio 2015\Projects\BudgetCommerce\BudgetCommerce\bin\Newtonsoft.Json.xml
+c:\Users\Nick\Documents\Visual Studio 2015\Projects\BudgetCommerce\BudgetCommerce\bin\System.Web.Helpers.xml
+c:\Users\Nick\Documents\Visual Studio 2015\Projects\BudgetCommerce\BudgetCommerce\bin\System.Web.Mvc.xml
+c:\Users\Nick\Documents\Visual Studio 2015\Projects\BudgetCommerce\BudgetCommerce\bin\System.Web.Optimization.xml
+c:\Users\Nick\Documents\Visual Studio 2015\Projects\BudgetCommerce\BudgetCommerce\bin\System.Web.Razor.xml
+c:\Users\Nick\Documents\Visual Studio 2015\Projects\BudgetCommerce\BudgetCommerce\bin\System.Web.WebPages.xml
+c:\Users\Nick\Documents\Visual Studio 2015\Projects\BudgetCommerce\BudgetCommerce\bin\System.Web.WebPages.Deployment.xml
+c:\Users\Nick\Documents\Visual Studio 2015\Projects\BudgetCommerce\BudgetCommerce\bin\System.Web.WebPages.Razor.xml
+c:\Users\Nick\Documents\Visual Studio 2015\Projects\BudgetCommerce\BudgetCommerce\bin\EntityFramework.xml
+c:\Users\Nick\Documents\Visual Studio 2015\Projects\BudgetCommerce\BudgetCommerce\bin\EntityFramework.SqlServer.xml
+c:\Users\Nick\Documents\Visual Studio 2015\Projects\BudgetCommerce\BudgetCommerce\bin\Microsoft.AspNet.Identity.Core.xml
+c:\Users\Nick\Documents\Visual Studio 2015\Projects\BudgetCommerce\BudgetCommerce\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\Users\Nick\Documents\Visual Studio 2015\Projects\BudgetCommerce\BudgetCommerce\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\Users\Nick\Documents\Visual Studio 2015\Projects\BudgetCommerce\BudgetCommerce\bin\Microsoft.Owin.xml
+c:\Users\Nick\Documents\Visual Studio 2015\Projects\BudgetCommerce\BudgetCommerce\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\Users\Nick\Documents\Visual Studio 2015\Projects\BudgetCommerce\BudgetCommerce\bin\Microsoft.Owin.Security.xml
+c:\Users\Nick\Documents\Visual Studio 2015\Projects\BudgetCommerce\BudgetCommerce\bin\Microsoft.Owin.Security.Facebook.xml
+c:\Users\Nick\Documents\Visual Studio 2015\Projects\BudgetCommerce\BudgetCommerce\bin\Microsoft.Owin.Security.Cookies.xml
+c:\Users\Nick\Documents\Visual Studio 2015\Projects\BudgetCommerce\BudgetCommerce\bin\Microsoft.Owin.Security.OAuth.xml
+c:\Users\Nick\Documents\Visual Studio 2015\Projects\BudgetCommerce\BudgetCommerce\bin\Microsoft.Owin.Security.Google.xml
+c:\Users\Nick\Documents\Visual Studio 2015\Projects\BudgetCommerce\BudgetCommerce\bin\Microsoft.Owin.Security.Twitter.xml
+c:\Users\Nick\Documents\Visual Studio 2015\Projects\BudgetCommerce\BudgetCommerce\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\Users\Nick\Documents\Visual Studio 2015\Projects\BudgetCommerce\BudgetCommerce\obj\Debug\BudgetCommerce.csprojResolveAssemblyReference.cache
+c:\Users\Nick\Documents\Visual Studio 2015\Projects\BudgetCommerce\BudgetCommerce\obj\Debug\BudgetCommerce.dll
+c:\Users\Nick\Documents\Visual Studio 2015\Projects\BudgetCommerce\BudgetCommerce\obj\Debug\BudgetCommerce.pdb
+C:\Users\Waynage\Source\Repos\Spring2017Team1\Budget\BudgetCommerce\bin\ApplicationInsights.config
+C:\Users\Waynage\Source\Repos\Spring2017Team1\Budget\BudgetCommerce\bin\roslyn\csc.exe
+C:\Users\Waynage\Source\Repos\Spring2017Team1\Budget\BudgetCommerce\bin\roslyn\csc.exe.config
+C:\Users\Waynage\Source\Repos\Spring2017Team1\Budget\BudgetCommerce\bin\roslyn\csc.rsp
+C:\Users\Waynage\Source\Repos\Spring2017Team1\Budget\BudgetCommerce\bin\roslyn\csi.exe
+C:\Users\Waynage\Source\Repos\Spring2017Team1\Budget\BudgetCommerce\bin\roslyn\csi.rsp
+C:\Users\Waynage\Source\Repos\Spring2017Team1\Budget\BudgetCommerce\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Waynage\Source\Repos\Spring2017Team1\Budget\BudgetCommerce\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Waynage\Source\Repos\Spring2017Team1\Budget\BudgetCommerce\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Waynage\Source\Repos\Spring2017Team1\Budget\BudgetCommerce\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Waynage\Source\Repos\Spring2017Team1\Budget\BudgetCommerce\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Waynage\Source\Repos\Spring2017Team1\Budget\BudgetCommerce\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Waynage\Source\Repos\Spring2017Team1\Budget\BudgetCommerce\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Waynage\Source\Repos\Spring2017Team1\Budget\BudgetCommerce\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Waynage\Source\Repos\Spring2017Team1\Budget\BudgetCommerce\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Waynage\Source\Repos\Spring2017Team1\Budget\BudgetCommerce\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Waynage\Source\Repos\Spring2017Team1\Budget\BudgetCommerce\bin\roslyn\System.AppContext.dll
+C:\Users\Waynage\Source\Repos\Spring2017Team1\Budget\BudgetCommerce\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Waynage\Source\Repos\Spring2017Team1\Budget\BudgetCommerce\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Waynage\Source\Repos\Spring2017Team1\Budget\BudgetCommerce\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Waynage\Source\Repos\Spring2017Team1\Budget\BudgetCommerce\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Waynage\Source\Repos\Spring2017Team1\Budget\BudgetCommerce\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Waynage\Source\Repos\Spring2017Team1\Budget\BudgetCommerce\bin\roslyn\vbc.exe
+C:\Users\Waynage\Source\Repos\Spring2017Team1\Budget\BudgetCommerce\bin\roslyn\vbc.exe.config
+C:\Users\Waynage\Source\Repos\Spring2017Team1\Budget\BudgetCommerce\bin\roslyn\vbc.rsp
+C:\Users\Waynage\Source\Repos\Spring2017Team1\Budget\BudgetCommerce\bin\roslyn\VBCSCompiler.exe
+C:\Users\Waynage\Source\Repos\Spring2017Team1\Budget\BudgetCommerce\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Waynage\Source\Repos\Spring2017Team1\Budget\BudgetCommerce\bin\BudgetCommerce.dll.config
+C:\Users\Waynage\Source\Repos\Spring2017Team1\Budget\BudgetCommerce\bin\BudgetCommerce.dll
+C:\Users\Waynage\Source\Repos\Spring2017Team1\Budget\BudgetCommerce\bin\BudgetCommerce.pdb
+C:\Users\Waynage\Source\Repos\Spring2017Team1\Budget\BudgetCommerce\bin\Antlr3.Runtime.dll
+C:\Users\Waynage\Source\Repos\Spring2017Team1\Budget\BudgetCommerce\bin\EntityFramework.dll
+C:\Users\Waynage\Source\Repos\Spring2017Team1\Budget\BudgetCommerce\bin\EntityFramework.SqlServer.dll
+C:\Users\Waynage\Source\Repos\Spring2017Team1\Budget\BudgetCommerce\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Waynage\Source\Repos\Spring2017Team1\Budget\BudgetCommerce\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Waynage\Source\Repos\Spring2017Team1\Budget\BudgetCommerce\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Waynage\Source\Repos\Spring2017Team1\Budget\BudgetCommerce\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Waynage\Source\Repos\Spring2017Team1\Budget\BudgetCommerce\bin\Microsoft.AI.Web.dll
+C:\Users\Waynage\Source\Repos\Spring2017Team1\Budget\BudgetCommerce\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Waynage\Source\Repos\Spring2017Team1\Budget\BudgetCommerce\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Waynage\Source\Repos\Spring2017Team1\Budget\BudgetCommerce\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Waynage\Source\Repos\Spring2017Team1\Budget\BudgetCommerce\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Waynage\Source\Repos\Spring2017Team1\Budget\BudgetCommerce\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Waynage\Source\Repos\Spring2017Team1\Budget\BudgetCommerce\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Waynage\Source\Repos\Spring2017Team1\Budget\BudgetCommerce\bin\Microsoft.Owin.dll
+C:\Users\Waynage\Source\Repos\Spring2017Team1\Budget\BudgetCommerce\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Waynage\Source\Repos\Spring2017Team1\Budget\BudgetCommerce\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Waynage\Source\Repos\Spring2017Team1\Budget\BudgetCommerce\bin\Microsoft.Owin.Security.dll
+C:\Users\Waynage\Source\Repos\Spring2017Team1\Budget\BudgetCommerce\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Waynage\Source\Repos\Spring2017Team1\Budget\BudgetCommerce\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Waynage\Source\Repos\Spring2017Team1\Budget\BudgetCommerce\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Waynage\Source\Repos\Spring2017Team1\Budget\BudgetCommerce\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Waynage\Source\Repos\Spring2017Team1\Budget\BudgetCommerce\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Waynage\Source\Repos\Spring2017Team1\Budget\BudgetCommerce\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Waynage\Source\Repos\Spring2017Team1\Budget\BudgetCommerce\bin\Newtonsoft.Json.dll
+C:\Users\Waynage\Source\Repos\Spring2017Team1\Budget\BudgetCommerce\bin\Owin.dll
+C:\Users\Waynage\Source\Repos\Spring2017Team1\Budget\BudgetCommerce\bin\System.Web.Helpers.dll
+C:\Users\Waynage\Source\Repos\Spring2017Team1\Budget\BudgetCommerce\bin\System.Web.Mvc.dll
+C:\Users\Waynage\Source\Repos\Spring2017Team1\Budget\BudgetCommerce\bin\System.Web.Optimization.dll
+C:\Users\Waynage\Source\Repos\Spring2017Team1\Budget\BudgetCommerce\bin\System.Web.Razor.dll
+C:\Users\Waynage\Source\Repos\Spring2017Team1\Budget\BudgetCommerce\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Waynage\Source\Repos\Spring2017Team1\Budget\BudgetCommerce\bin\System.Web.WebPages.dll
+C:\Users\Waynage\Source\Repos\Spring2017Team1\Budget\BudgetCommerce\bin\System.Web.WebPages.Razor.dll
+C:\Users\Waynage\Source\Repos\Spring2017Team1\Budget\BudgetCommerce\bin\WebGrease.dll
+C:\Users\Waynage\Source\Repos\Spring2017Team1\Budget\BudgetCommerce\bin\Antlr3.Runtime.pdb
+C:\Users\Waynage\Source\Repos\Spring2017Team1\Budget\BudgetCommerce\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Waynage\Source\Repos\Spring2017Team1\Budget\BudgetCommerce\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Waynage\Source\Repos\Spring2017Team1\Budget\BudgetCommerce\bin\Microsoft.AI.Web.xml
+C:\Users\Waynage\Source\Repos\Spring2017Team1\Budget\BudgetCommerce\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Waynage\Source\Repos\Spring2017Team1\Budget\BudgetCommerce\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Waynage\Source\Repos\Spring2017Team1\Budget\BudgetCommerce\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Waynage\Source\Repos\Spring2017Team1\Budget\BudgetCommerce\bin\Newtonsoft.Json.xml
+C:\Users\Waynage\Source\Repos\Spring2017Team1\Budget\BudgetCommerce\bin\System.Web.Helpers.xml
+C:\Users\Waynage\Source\Repos\Spring2017Team1\Budget\BudgetCommerce\bin\System.Web.Mvc.xml
+C:\Users\Waynage\Source\Repos\Spring2017Team1\Budget\BudgetCommerce\bin\System.Web.Optimization.xml
+C:\Users\Waynage\Source\Repos\Spring2017Team1\Budget\BudgetCommerce\bin\System.Web.Razor.xml
+C:\Users\Waynage\Source\Repos\Spring2017Team1\Budget\BudgetCommerce\bin\System.Web.WebPages.xml
+C:\Users\Waynage\Source\Repos\Spring2017Team1\Budget\BudgetCommerce\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Waynage\Source\Repos\Spring2017Team1\Budget\BudgetCommerce\bin\System.Web.WebPages.Razor.xml
+C:\Users\Waynage\Source\Repos\Spring2017Team1\Budget\BudgetCommerce\bin\EntityFramework.xml
+C:\Users\Waynage\Source\Repos\Spring2017Team1\Budget\BudgetCommerce\bin\EntityFramework.SqlServer.xml
+C:\Users\Waynage\Source\Repos\Spring2017Team1\Budget\BudgetCommerce\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Waynage\Source\Repos\Spring2017Team1\Budget\BudgetCommerce\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Waynage\Source\Repos\Spring2017Team1\Budget\BudgetCommerce\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Waynage\Source\Repos\Spring2017Team1\Budget\BudgetCommerce\bin\Microsoft.Owin.xml
+C:\Users\Waynage\Source\Repos\Spring2017Team1\Budget\BudgetCommerce\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Waynage\Source\Repos\Spring2017Team1\Budget\BudgetCommerce\bin\Microsoft.Owin.Security.xml
+C:\Users\Waynage\Source\Repos\Spring2017Team1\Budget\BudgetCommerce\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Waynage\Source\Repos\Spring2017Team1\Budget\BudgetCommerce\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Waynage\Source\Repos\Spring2017Team1\Budget\BudgetCommerce\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Waynage\Source\Repos\Spring2017Team1\Budget\BudgetCommerce\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Waynage\Source\Repos\Spring2017Team1\Budget\BudgetCommerce\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Waynage\Source\Repos\Spring2017Team1\Budget\BudgetCommerce\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Waynage\Source\Repos\Spring2017Team1\Budget\BudgetCommerce\obj\Debug\BudgetCommerce.csprojResolveAssemblyReference.cache
+C:\Users\Waynage\Source\Repos\Spring2017Team1\Budget\BudgetCommerce\obj\Debug\BudgetCommerce.dll
+C:\Users\Waynage\Source\Repos\Spring2017Team1\Budget\BudgetCommerce\obj\Debug\BudgetCommerce.pdb
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Spring2017Team1\Budget\BudgetCommerce\bin\ApplicationInsights.config
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Spring2017Team1\Budget\BudgetCommerce\bin\roslyn\csc.exe
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Spring2017Team1\Budget\BudgetCommerce\bin\roslyn\csc.exe.config
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Spring2017Team1\Budget\BudgetCommerce\bin\roslyn\csc.rsp
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Spring2017Team1\Budget\BudgetCommerce\bin\roslyn\csi.exe
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Spring2017Team1\Budget\BudgetCommerce\bin\roslyn\csi.rsp
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Spring2017Team1\Budget\BudgetCommerce\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Spring2017Team1\Budget\BudgetCommerce\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Spring2017Team1\Budget\BudgetCommerce\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Spring2017Team1\Budget\BudgetCommerce\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Spring2017Team1\Budget\BudgetCommerce\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Spring2017Team1\Budget\BudgetCommerce\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Spring2017Team1\Budget\BudgetCommerce\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Spring2017Team1\Budget\BudgetCommerce\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Spring2017Team1\Budget\BudgetCommerce\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Spring2017Team1\Budget\BudgetCommerce\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Spring2017Team1\Budget\BudgetCommerce\bin\roslyn\System.AppContext.dll
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Spring2017Team1\Budget\BudgetCommerce\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Spring2017Team1\Budget\BudgetCommerce\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Spring2017Team1\Budget\BudgetCommerce\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Spring2017Team1\Budget\BudgetCommerce\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Spring2017Team1\Budget\BudgetCommerce\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Spring2017Team1\Budget\BudgetCommerce\bin\roslyn\vbc.exe
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Spring2017Team1\Budget\BudgetCommerce\bin\roslyn\vbc.exe.config
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Spring2017Team1\Budget\BudgetCommerce\bin\roslyn\vbc.rsp
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Spring2017Team1\Budget\BudgetCommerce\bin\roslyn\VBCSCompiler.exe
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Spring2017Team1\Budget\BudgetCommerce\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Spring2017Team1\Budget\BudgetCommerce\bin\BudgetCommerce.dll.config
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Spring2017Team1\Budget\BudgetCommerce\bin\BudgetCommerce.dll
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Spring2017Team1\Budget\BudgetCommerce\bin\BudgetCommerce.pdb
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Spring2017Team1\Budget\BudgetCommerce\bin\Antlr3.Runtime.dll
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Spring2017Team1\Budget\BudgetCommerce\bin\EntityFramework.dll
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Spring2017Team1\Budget\BudgetCommerce\bin\EntityFramework.SqlServer.dll
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Spring2017Team1\Budget\BudgetCommerce\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Spring2017Team1\Budget\BudgetCommerce\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Spring2017Team1\Budget\BudgetCommerce\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Spring2017Team1\Budget\BudgetCommerce\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Spring2017Team1\Budget\BudgetCommerce\bin\Microsoft.AI.Web.dll
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Spring2017Team1\Budget\BudgetCommerce\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Spring2017Team1\Budget\BudgetCommerce\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Spring2017Team1\Budget\BudgetCommerce\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Spring2017Team1\Budget\BudgetCommerce\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Spring2017Team1\Budget\BudgetCommerce\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Spring2017Team1\Budget\BudgetCommerce\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Spring2017Team1\Budget\BudgetCommerce\bin\Microsoft.Owin.dll
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Spring2017Team1\Budget\BudgetCommerce\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Spring2017Team1\Budget\BudgetCommerce\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Spring2017Team1\Budget\BudgetCommerce\bin\Microsoft.Owin.Security.dll
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Spring2017Team1\Budget\BudgetCommerce\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Spring2017Team1\Budget\BudgetCommerce\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Spring2017Team1\Budget\BudgetCommerce\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Spring2017Team1\Budget\BudgetCommerce\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Spring2017Team1\Budget\BudgetCommerce\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Spring2017Team1\Budget\BudgetCommerce\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Spring2017Team1\Budget\BudgetCommerce\bin\Newtonsoft.Json.dll
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Spring2017Team1\Budget\BudgetCommerce\bin\Owin.dll
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Spring2017Team1\Budget\BudgetCommerce\bin\System.Web.Helpers.dll
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Spring2017Team1\Budget\BudgetCommerce\bin\System.Web.Mvc.dll
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Spring2017Team1\Budget\BudgetCommerce\bin\System.Web.Optimization.dll
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Spring2017Team1\Budget\BudgetCommerce\bin\System.Web.Razor.dll
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Spring2017Team1\Budget\BudgetCommerce\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Spring2017Team1\Budget\BudgetCommerce\bin\System.Web.WebPages.dll
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Spring2017Team1\Budget\BudgetCommerce\bin\System.Web.WebPages.Razor.dll
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Spring2017Team1\Budget\BudgetCommerce\bin\WebGrease.dll
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Spring2017Team1\Budget\BudgetCommerce\bin\Antlr3.Runtime.pdb
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Spring2017Team1\Budget\BudgetCommerce\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Spring2017Team1\Budget\BudgetCommerce\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Spring2017Team1\Budget\BudgetCommerce\bin\Microsoft.AI.Web.xml
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Spring2017Team1\Budget\BudgetCommerce\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Spring2017Team1\Budget\BudgetCommerce\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Spring2017Team1\Budget\BudgetCommerce\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Spring2017Team1\Budget\BudgetCommerce\bin\Newtonsoft.Json.xml
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Spring2017Team1\Budget\BudgetCommerce\bin\System.Web.Helpers.xml
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Spring2017Team1\Budget\BudgetCommerce\bin\System.Web.Mvc.xml
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Spring2017Team1\Budget\BudgetCommerce\bin\System.Web.Optimization.xml
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Spring2017Team1\Budget\BudgetCommerce\bin\System.Web.Razor.xml
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Spring2017Team1\Budget\BudgetCommerce\bin\System.Web.WebPages.xml
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Spring2017Team1\Budget\BudgetCommerce\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Spring2017Team1\Budget\BudgetCommerce\bin\System.Web.WebPages.Razor.xml
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Spring2017Team1\Budget\BudgetCommerce\bin\EntityFramework.xml
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Spring2017Team1\Budget\BudgetCommerce\bin\EntityFramework.SqlServer.xml
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Spring2017Team1\Budget\BudgetCommerce\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Spring2017Team1\Budget\BudgetCommerce\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Spring2017Team1\Budget\BudgetCommerce\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Spring2017Team1\Budget\BudgetCommerce\bin\Microsoft.Owin.xml
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Spring2017Team1\Budget\BudgetCommerce\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Spring2017Team1\Budget\BudgetCommerce\bin\Microsoft.Owin.Security.xml
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Spring2017Team1\Budget\BudgetCommerce\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Spring2017Team1\Budget\BudgetCommerce\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Spring2017Team1\Budget\BudgetCommerce\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Spring2017Team1\Budget\BudgetCommerce\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Spring2017Team1\Budget\BudgetCommerce\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Spring2017Team1\Budget\BudgetCommerce\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Spring2017Team1\Budget\BudgetCommerce\obj\Debug\BudgetCommerce.csprojResolveAssemblyReference.cache
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Spring2017Team1\Budget\BudgetCommerce\obj\Debug\BudgetCommerce.dll
+C:\Users\Nick\Documents\Visual Studio 2015\Projects\Spring2017Team1\Budget\BudgetCommerce\obj\Debug\BudgetCommerce.pdb

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CommerceDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'CommerceDB.dbo.'CustomerA'' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="'CustomerA'">
+          <Property Name="Account Type" Type="nvarchar" MaxLength="255" />
+          <Property Name="Acct #" Type="float" />
+          <Property Name="Processing Date" Type="datetime" />
+          <Property Name="Balance" Type="float" />
+          <Property Name="CR (Deposit) or DR (Withdrawal" Type="nvarchar" MaxLength="255" />
+          <Property Name="Amount" Type="money" />
+          <Property Name="Description 1" Type="nvarchar" MaxLength="255" />
+          <Property Name="F8" Type="nvarchar" MaxLength="255" />
+          <Property Name="F9" Type="nvarchar" MaxLength="255" />
+          <Property Name="F10" Type="nvarchar" MaxLength="255" />
+          <Property Name="F11" Type="nvarchar" MaxLength="255" />
+          <Property Name="F12" Type="nvarchar" MaxLength="255" />
+        </EntityType>-->
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'CommerceDB.dbo.'CustomerB'' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="'CustomerB'">
+          <Property Name="Account Type" Type="nvarchar" MaxLength="255" />
+          <Property Name="Acct #" Type="float" />
+          <Property Name="Processing Date" Type="datetime" />
+          <Property Name="Balance" Type="float" />
+          <Property Name="CR (Deposit) or DR (Withdrawal" Type="nvarchar" MaxLength="255" />
+          <Property Name="Amount" Type="money" />
+          <Property Name="Description 1" Type="nvarchar" MaxLength="255" />
+          <Property Name="F8" Type="nvarchar" MaxLength="255" />
+          <Property Name="F9" Type="nvarchar" MaxLength="255" />
+          <Property Name="F10" Type="nvarchar" MaxLength="255" />
+          <Property Name="F11" Type="nvarchar" MaxLength="255" />
+        </EntityType>-->
+  <EntityType Name="GoalType">
+    <Key>
+      <PropertyRef Name="GoalType" />
+    </Key>
+    <Property Name="GoalType" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="AmountEntered" Type="money" />
+    <Property Name="StartDate" Type="datetime" />
+    <Property Name="EndDate" Type="datetime" />
+    <Property Name="GoalAchieved" Type="varchar" MaxLength="50" />
+    <Property Name="TenPercentToGoal" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityContainer Name="CommerceDBModelStoreContainer">
+    <EntitySet Name="GoalType" EntityType="Self.GoalType" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

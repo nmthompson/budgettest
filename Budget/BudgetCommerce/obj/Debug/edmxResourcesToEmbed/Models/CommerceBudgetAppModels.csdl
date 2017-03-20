@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CommerceDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Checking">
+    <Key>
+      <PropertyRef Name="CheckingTableID" />
+    </Key>
+    <Property Name="CheckingTableID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CustomerID" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="AccountNumber" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ProcessDateTime" Type="DateTime" Precision="3" />
+    <Property Name="Description" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Amount" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="CR_deposit__or_DR_withdrawl_" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="CustomerInfo" Relationship="Self.FK_Checking_CustomerInfo" FromRole="Checking" ToRole="CustomerInfo" />
+  </EntityType>
+  <EntityType Name="CreditCard">
+    <Key>
+      <PropertyRef Name="CreditCardTableID" />
+    </Key>
+    <Property Name="CreditCardTableID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CustomerID" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="AccountNumber" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="ProcessDateTime" Type="DateTime" Precision="3" />
+    <Property Name="Description" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Amount" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="CR_deposit__or_DR_withdrawl_" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="CustomerInfo" Relationship="Self.FK_CreditCard_CustomerInfo" FromRole="CreditCard" ToRole="CustomerInfo" />
+  </EntityType>
+  <EntityType Name="CustomerInfo">
+    <Key>
+      <PropertyRef Name="CustomerID" />
+    </Key>
+    <Property Name="CustomerTableID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CustomerID" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="FirstName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="LastName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="MiddleInitial" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="DOB" Type="DateTime" Precision="0" />
+    <Property Name="CheckingAccountNumber" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CreditCardAccountNumber" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SavingsAccountNumber" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="HomeAddress" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="PhoneNumber" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CheckingBalance" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="SavingsBalance" Type="Decimal" Precision="19" Scale="4" />
+    <NavigationProperty Name="Checkings" Relationship="Self.FK_Checking_CustomerInfo" FromRole="CustomerInfo" ToRole="Checking" />
+    <NavigationProperty Name="CreditCards" Relationship="Self.FK_CreditCard_CustomerInfo" FromRole="CustomerInfo" ToRole="CreditCard" />
+    <NavigationProperty Name="GoalTypes" Relationship="Self.FK_GoalType_CustomerInfo" FromRole="CustomerInfo" ToRole="GoalType" />
+    <NavigationProperty Name="Savings" Relationship="Self.FK_Savings_CustomerInfo" FromRole="CustomerInfo" ToRole="Savings" />
+  </EntityType>
+  <EntityType Name="GoalType">
+    <Key>
+      <PropertyRef Name="GoalTableID" />
+    </Key>
+    <Property Name="GoalTableID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CustomerID" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="GoalType1" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="StartDateTime" Type="DateTime" Precision="3" />
+    <Property Name="EndDateTime" Type="DateTime" Precision="3" />
+    <Property Name="AmountEntered" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="GoalAchieved" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TenPercentToGoal" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="CustomerInfo" Relationship="Self.FK_GoalType_CustomerInfo" FromRole="GoalType" ToRole="CustomerInfo" />
+  </EntityType>
+  <EntityType Name="Saving">
+    <Key>
+      <PropertyRef Name="SavingsTableID" />
+    </Key>
+    <Property Name="SavingsTableID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CustomerID" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="AccountNumber" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ProcessDateTime" Type="DateTime" Precision="3" />
+    <Property Name="Description" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Amount" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="CR_deposit__or_DR_withdrawl_" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="CustomerInfo" Relationship="Self.FK_Savings_CustomerInfo" FromRole="Savings" ToRole="CustomerInfo" />
+  </EntityType>
+  <Association Name="FK_Checking_CustomerInfo">
+    <End Role="CustomerInfo" Type="Self.CustomerInfo" Multiplicity="0..1" />
+    <End Role="Checking" Type="Self.Checking" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CustomerInfo">
+        <PropertyRef Name="CustomerID" />
+      </Principal>
+      <Dependent Role="Checking">
+        <PropertyRef Name="CustomerID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CreditCard_CustomerInfo">
+    <End Role="CustomerInfo" Type="Self.CustomerInfo" Multiplicity="0..1" />
+    <End Role="CreditCard" Type="Self.CreditCard" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CustomerInfo">
+        <PropertyRef Name="CustomerID" />
+      </Principal>
+      <Dependent Role="CreditCard">
+        <PropertyRef Name="CustomerID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_GoalType_CustomerInfo">
+    <End Role="CustomerInfo" Type="Self.CustomerInfo" Multiplicity="1" />
+    <End Role="GoalType" Type="Self.GoalType" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CustomerInfo">
+        <PropertyRef Name="CustomerID" />
+      </Principal>
+      <Dependent Role="GoalType">
+        <PropertyRef Name="CustomerID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Savings_CustomerInfo">
+    <End Role="CustomerInfo" Type="Self.CustomerInfo" Multiplicity="0..1" />
+    <End Role="Savings" Type="Self.Saving" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CustomerInfo">
+        <PropertyRef Name="CustomerID" />
+      </Principal>
+      <Dependent Role="Savings">
+        <PropertyRef Name="CustomerID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="CommerceDBEntities3" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Checkings" EntityType="Self.Checking" />
+    <EntitySet Name="CreditCards" EntityType="Self.CreditCard" />
+    <EntitySet Name="CustomerInfoes" EntityType="Self.CustomerInfo" />
+    <EntitySet Name="GoalTypes" EntityType="Self.GoalType" />
+    <EntitySet Name="Savings" EntityType="Self.Saving" />
+    <AssociationSet Name="FK_Checking_CustomerInfo" Association="Self.FK_Checking_CustomerInfo">
+      <End Role="CustomerInfo" EntitySet="CustomerInfoes" />
+      <End Role="Checking" EntitySet="Checkings" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CreditCard_CustomerInfo" Association="Self.FK_CreditCard_CustomerInfo">
+      <End Role="CustomerInfo" EntitySet="CustomerInfoes" />
+      <End Role="CreditCard" EntitySet="CreditCards" />
+    </AssociationSet>
+    <AssociationSet Name="FK_GoalType_CustomerInfo" Association="Self.FK_GoalType_CustomerInfo">
+      <End Role="CustomerInfo" EntitySet="CustomerInfoes" />
+      <End Role="GoalType" EntitySet="GoalTypes" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Savings_CustomerInfo" Association="Self.FK_Savings_CustomerInfo">
+      <End Role="CustomerInfo" EntitySet="CustomerInfoes" />
+      <End Role="Savings" EntitySet="Savings" />
+    </AssociationSet>
+    <FunctionImport Name="sp_alterdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_creatediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_dropdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagramdefinition" ReturnType="Collection(CommerceDBModel.sp_helpdiagramdefinition_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagrams" ReturnType="Collection(CommerceDBModel.sp_helpdiagrams_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_renamediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="new_diagramname" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_upgraddiagrams" />
+    <FunctionImport Name="spGetCheckingSumByCustomerIDAndAccountNumberAndCRorDRAndStartDateTime" ReturnType="Collection(CommerceDBModel.spGetCheckingSumByCustomerIDAndAccountNumberAndCRorDRAndStartDateTime_Result)">
+      <Parameter Name="Customer" Mode="In" Type="String" />
+      <Parameter Name="AccountNumber" Mode="In" Type="String" />
+      <Parameter Name="WithdrawlorCredit" Mode="In" Type="String" />
+      <Parameter Name="StartDateTime" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="spGetCreditCardSumByCustomerIDAndCRorDRAndStartDateTime" ReturnType="Collection(CommerceDBModel.spGetCreditCardSumByCustomerIDAndCRorDRAndStartDateTime_Result)">
+      <Parameter Name="Customer" Mode="In" Type="String" />
+      <Parameter Name="WithdrawlorCredit" Mode="In" Type="String" />
+      <Parameter Name="StartDateTime" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="spGetSavingsSumByCustomerIDAndAccountNumberAndCRorDRAndStartDateTime" ReturnType="Collection(CommerceDBModel.spGetSavingsSumByCustomerIDAndAccountNumberAndCRorDRAndStartDateTime_Result)">
+      <Parameter Name="Customer" Mode="In" Type="String" />
+      <Parameter Name="AccountNumber" Mode="In" Type="String" />
+      <Parameter Name="WithdrawlorCredit" Mode="In" Type="String" />
+      <Parameter Name="StartDateTime" Mode="In" Type="DateTime" />
+    </FunctionImport>
+  </EntityContainer>
+  <ComplexType Name="sp_helpdiagramdefinition_Result">
+    <Property Type="Int32" Name="version" Nullable="true" />
+    <Property Type="Binary" Name="definition" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_helpdiagrams_Result">
+    <Property Type="String" Name="Database" Nullable="true" MaxLength="128" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="128" />
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="Owner" Nullable="true" MaxLength="128" />
+    <Property Type="Int32" Name="OwnerID" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="spGetCheckingSumByCustomerIDAndAccountNumberAndCRorDRAndStartDateTime_Result">
+    <Property Type="String" Name="CustomerID" Nullable="true" MaxLength="50" />
+    <Property Type="Decimal" Name="TotalSum" Nullable="true" Precision="19" />
+  </ComplexType>
+  <ComplexType Name="spGetCreditCardSumByCustomerIDAndCRorDRAndStartDateTime_Result">
+    <Property Type="String" Name="CustomerID" Nullable="true" MaxLength="50" />
+    <Property Type="Decimal" Name="TotalSum" Nullable="true" Precision="19" />
+  </ComplexType>
+  <ComplexType Name="spGetSavingsSumByCustomerIDAndAccountNumberAndCRorDRAndStartDateTime_Result">
+    <Property Type="String" Name="CustomerID" Nullable="true" MaxLength="50" />
+    <Property Type="Decimal" Name="TotalSum" Nullable="true" Precision="19" />
+  </ComplexType>
+</Schema>

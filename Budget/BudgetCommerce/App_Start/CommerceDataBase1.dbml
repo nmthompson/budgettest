@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="CommerceDB" Class="CommerceDataBase1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=localhost.clpnihnuhhfd.us-east-1.rds.amazonaws.com;Initial Catalog=CommerceDB;Persist Security Info=True;User ID=user1;MultipleActiveResultSets=True;Application Name=EntityFramework" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="CommerceDBConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Checking" Member="Checkings">
+    <Type Name="Checking">
+      <Column Name="CheckingTableID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CustomerID" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="AccountNumber" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ProcessDateTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Amount" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="[CR(deposit) or DR(withdrawl)]" Member="CR_deposit__or_DR_withdrawl_" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Association Name="CustomerInfo_Checking" Member="CustomerInfo" ThisKey="CustomerID" OtherKey="CustomerID" Type="CustomerInfo" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CreditCard" Member="CreditCards">
+    <Type Name="CreditCard">
+      <Column Name="CreditCardTableID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CustomerID" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="AccountNumber" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="ProcessDateTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Amount" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="[CR(deposit) or DR(withdrawl)]" Member="CR_deposit__or_DR_withdrawl_" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Association Name="CustomerInfo_CreditCard" Member="CustomerInfo" ThisKey="CustomerID" OtherKey="CustomerID" Type="CustomerInfo" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CustomerInfo" Member="CustomerInfos">
+    <Type Name="CustomerInfo">
+      <Column Name="CustomerTableID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CustomerID" Type="System.String" DbType="VarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="FirstName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="LastName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="MiddleInitial" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="DOB" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="CheckingAccountNumber" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="CreditCardAccountNumber" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="SavingsAccountNumber" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="HomeAddress" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="PhoneNumber" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="CheckingBalance" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="SavingsBalance" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Association Name="CustomerInfo_Checking" Member="Checkings" ThisKey="CustomerID" OtherKey="CustomerID" Type="Checking" />
+      <Association Name="CustomerInfo_CreditCard" Member="CreditCards" ThisKey="CustomerID" OtherKey="CustomerID" Type="CreditCard" />
+      <Association Name="CustomerInfo_GoalType" Member="GoalTypes" ThisKey="CustomerID" OtherKey="CustomerID" Type="GoalType" />
+      <Association Name="CustomerInfo_Saving" Member="Savings" ThisKey="CustomerID" OtherKey="CustomerID" Type="Saving" />
+    </Type>
+  </Table>
+  <Table Name="dbo.GoalType" Member="GoalTypes">
+    <Type Name="GoalType">
+      <Column Name="GoalTableID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CustomerID" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="GoalType" Member="GoalType1" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="StartDateTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="EndDateTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="AmountEntered" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="GoalAchieved" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="TenPercentToGoal" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Association Name="CustomerInfo_GoalType" Member="CustomerInfo" ThisKey="CustomerID" OtherKey="CustomerID" Type="CustomerInfo" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Savings" Member="Savings">
+    <Type Name="Saving">
+      <Column Name="SavingsTableID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CustomerID" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="AccountNumber" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ProcessDateTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Amount" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="[CR(deposit) or DR(withdrawl)]" Member="CR_deposit__or_DR_withdrawl_" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Association Name="CustomerInfo_Saving" Member="CustomerInfo" ThisKey="CustomerID" OtherKey="CustomerID" Type="CustomerInfo" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

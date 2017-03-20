@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="CommerceDBModelStoreContainer" CdmEntityContainer="CommerceDBEntities3">
+    <EntitySetMapping Name="Checkings">
+      <EntityTypeMapping TypeName="CommerceDBModel.Checking">
+        <MappingFragment StoreEntitySet="Checking">
+          <ScalarProperty Name="CheckingTableID" ColumnName="CheckingTableID" />
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="AccountNumber" ColumnName="AccountNumber" />
+          <ScalarProperty Name="ProcessDateTime" ColumnName="ProcessDateTime" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="CR_deposit__or_DR_withdrawl_" ColumnName="CR(deposit) or DR(withdrawl)" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CreditCards">
+      <EntityTypeMapping TypeName="CommerceDBModel.CreditCard">
+        <MappingFragment StoreEntitySet="CreditCard">
+          <ScalarProperty Name="CreditCardTableID" ColumnName="CreditCardTableID" />
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="AccountNumber" ColumnName="AccountNumber" />
+          <ScalarProperty Name="ProcessDateTime" ColumnName="ProcessDateTime" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="CR_deposit__or_DR_withdrawl_" ColumnName="CR(deposit) or DR(withdrawl)" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CustomerInfoes">
+      <EntityTypeMapping TypeName="CommerceDBModel.CustomerInfo">
+        <MappingFragment StoreEntitySet="CustomerInfo">
+          <ScalarProperty Name="CustomerTableID" ColumnName="CustomerTableID" />
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="MiddleInitial" ColumnName="MiddleInitial" />
+          <ScalarProperty Name="DOB" ColumnName="DOB" />
+          <ScalarProperty Name="CheckingAccountNumber" ColumnName="CheckingAccountNumber" />
+          <ScalarProperty Name="CreditCardAccountNumber" ColumnName="CreditCardAccountNumber" />
+          <ScalarProperty Name="SavingsAccountNumber" ColumnName="SavingsAccountNumber" />
+          <ScalarProperty Name="HomeAddress" ColumnName="HomeAddress" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="CheckingBalance" ColumnName="CheckingBalance" />
+          <ScalarProperty Name="SavingsBalance" ColumnName="SavingsBalance" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GoalTypes">
+      <EntityTypeMapping TypeName="CommerceDBModel.GoalType">
+        <MappingFragment StoreEntitySet="GoalType">
+          <ScalarProperty Name="GoalTableID" ColumnName="GoalTableID" />
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="GoalType1" ColumnName="GoalType" />
+          <ScalarProperty Name="StartDateTime" ColumnName="StartDateTime" />
+          <ScalarProperty Name="EndDateTime" ColumnName="EndDateTime" />
+          <ScalarProperty Name="AmountEntered" ColumnName="AmountEntered" />
+          <ScalarProperty Name="GoalAchieved" ColumnName="GoalAchieved" />
+          <ScalarProperty Name="TenPercentToGoal" ColumnName="TenPercentToGoal" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Savings">
+      <EntityTypeMapping TypeName="CommerceDBModel.Saving">
+        <MappingFragment StoreEntitySet="Savings">
+          <ScalarProperty Name="SavingsTableID" ColumnName="SavingsTableID" />
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="AccountNumber" ColumnName="AccountNumber" />
+          <ScalarProperty Name="ProcessDateTime" ColumnName="ProcessDateTime" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="CR_deposit__or_DR_withdrawl_" ColumnName="CR(deposit) or DR(withdrawl)" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="sp_alterdiagram" FunctionName="CommerceDBModel.Store.sp_alterdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_creatediagram" FunctionName="CommerceDBModel.Store.sp_creatediagram" />
+    <FunctionImportMapping FunctionImportName="sp_dropdiagram" FunctionName="CommerceDBModel.Store.sp_dropdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_helpdiagramdefinition" FunctionName="CommerceDBModel.Store.sp_helpdiagramdefinition">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="CommerceDBModel.sp_helpdiagramdefinition_Result">
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_helpdiagrams" FunctionName="CommerceDBModel.Store.sp_helpdiagrams">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="CommerceDBModel.sp_helpdiagrams_Result">
+          <ScalarProperty Name="Database" ColumnName="Database" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Owner" ColumnName="Owner" />
+          <ScalarProperty Name="OwnerID" ColumnName="OwnerID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_renamediagram" FunctionName="CommerceDBModel.Store.sp_renamediagram" />
+    <FunctionImportMapping FunctionImportName="sp_upgraddiagrams" FunctionName="CommerceDBModel.Store.sp_upgraddiagrams" />
+    <FunctionImportMapping FunctionImportName="spGetCheckingSumByCustomerIDAndAccountNumberAndCRorDRAndStartDateTime" FunctionName="CommerceDBModel.Store.spGetCheckingSumByCustomerIDAndAccountNumberAndCRorDRAndStartDateTime">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="CommerceDBModel.spGetCheckingSumByCustomerIDAndAccountNumberAndCRorDRAndStartDateTime_Result">
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="TotalSum" ColumnName="TotalSum" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="spGetCreditCardSumByCustomerIDAndCRorDRAndStartDateTime" FunctionName="CommerceDBModel.Store.spGetCreditCardSumByCustomerIDAndCRorDRAndStartDateTime">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="CommerceDBModel.spGetCreditCardSumByCustomerIDAndCRorDRAndStartDateTime_Result">
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="TotalSum" ColumnName="TotalSum" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="spGetSavingsSumByCustomerIDAndAccountNumberAndCRorDRAndStartDateTime" FunctionName="CommerceDBModel.Store.spGetSavingsSumByCustomerIDAndAccountNumberAndCRorDRAndStartDateTime">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="CommerceDBModel.spGetSavingsSumByCustomerIDAndAccountNumberAndCRorDRAndStartDateTime_Result">
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="TotalSum" ColumnName="TotalSum" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>

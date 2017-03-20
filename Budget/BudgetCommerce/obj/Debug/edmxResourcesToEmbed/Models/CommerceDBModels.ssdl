@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CommerceDBModel1.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Checking">
+    <Key>
+      <PropertyRef Name="CheckingTableID" />
+    </Key>
+    <Property Name="CheckingTableID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="AccountNumber" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="ProcessDateTime" Type="datetime" />
+    <Property Name="Description" Type="varchar" MaxLength="50" />
+    <Property Name="Amount" Type="money" />
+    <Property Name="CR (deposit) or DR(withdrawl)" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="CreditCard">
+    <Key>
+      <PropertyRef Name="CreditCardTableID" />
+    </Key>
+    <Property Name="CreditCardTableID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="AccountNumber" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="Description" Type="varchar" MaxLength="50" />
+    <Property Name="ProcessTime" Type="datetime" />
+    <Property Name="Amount" Type="money" />
+    <Property Name="CR(deposit) or DR(withdrawl)]" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="CustomerInfo">
+    <Key>
+      <PropertyRef Name="CustomerTableID" />
+    </Key>
+    <Property Name="CustomerTableID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CustomerID" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="FirstName" Type="varchar" MaxLength="50" />
+    <Property Name="LastName" Type="varchar" MaxLength="50" />
+    <Property Name="MiddleInitial" Type="varchar" MaxLength="50" />
+    <Property Name="DOB" Type="date" />
+    <Property Name="CheckingAccountNumber" Type="nchar" MaxLength="10" />
+    <Property Name="CreditCardAccountNumber" Type="nchar" MaxLength="10" />
+    <Property Name="SavingsAccountNumber" Type="nchar" MaxLength="10" />
+    <Property Name="HomeAddress" Type="varchar" MaxLength="50" />
+    <Property Name="PhoneNumber" Type="nchar" MaxLength="10" />
+    <Property Name="CheckingBalance" Type="money" />
+    <Property Name="SavingsBalance" Type="money" />
+  </EntityType>
+  <EntityType Name="GoalType">
+    <Key>
+      <PropertyRef Name="GoalTableID" />
+    </Key>
+    <Property Name="GoalTableID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CustomerID" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="GoalType" Type="varchar" MaxLength="50" />
+    <Property Name="StartDate" Type="datetime" />
+    <Property Name="EndDate" Type="datetime" />
+    <Property Name="AmountEntered" Type="money" />
+    <Property Name="GoalAchieved" Type="varchar" MaxLength="50" />
+    <Property Name="TenPercentToGoal" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Savings">
+    <Key>
+      <PropertyRef Name="SavingsTableID" />
+    </Key>
+    <Property Name="SavingsTableID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="AccountNumber" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="ProcessDate" Type="datetime" />
+    <Property Name="Description" Type="varchar" MaxLength="50" />
+    <Property Name="Amount" Type="money" />
+    <Property Name="CR(deposit) or DR(withdrawl)" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityContainer Name="CommerceDBModel1StoreContainer">
+    <EntitySet Name="Checking" EntityType="Self.Checking" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CreditCard" EntityType="Self.CreditCard" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CustomerInfo" EntityType="Self.CustomerInfo" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="GoalType" EntityType="Self.GoalType" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Savings" EntityType="Self.Savings" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

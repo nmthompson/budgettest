@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="d24f781baa2b4119b0194ef2b4b24594" Name="Diagram1">
+        <EntityTypeShape EntityType="CommerceDBModel.Checking" Width="1.5" PointX="3" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CommerceDBModel.CreditCard" Width="1.5" PointX="3" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CommerceDBModel.CustomerInfo" Width="1.5" PointX="0.75" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="CommerceDBModel.GoalType" Width="1.5" PointX="3" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="CommerceDBModel.Saving" Width="1.5" PointX="3" PointY="11.625" IsExpanded="true" />
+        <AssociationConnector Association="CommerceDBModel.FK_Checking_CustomerInfo" ManuallyRouted="false" />
+        <AssociationConnector Association="CommerceDBModel.FK_CreditCard_CustomerInfo" ManuallyRouted="false" />
+        <AssociationConnector Association="CommerceDBModel.FK_GoalType_CustomerInfo" ManuallyRouted="false" />
+        <AssociationConnector Association="CommerceDBModel.FK_Savings_CustomerInfo" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
